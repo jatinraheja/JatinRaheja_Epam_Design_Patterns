@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da667e44-e5af-47eb-8d92-60208c913496" name="Default Changelist" comment="" />
+    <list default="true" id="da667e44-e5af-47eb-8d92-60208c913496" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CommandPattern/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CommandPattern/CommandPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CommandPattern/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CommandPattern/LightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CommandPattern/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CommandPattern/SimpleRemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CommandPattern/Stereo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CommandPattern/StereoOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CommandPattern/StereoOnWithCDCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IteratorPattern/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IteratorPattern/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IteratorPattern/IteratorPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IteratorPattern/NameRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FacadePattern/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FacadePattern/FacadePatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FacadePattern/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FacadePattern/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FacadePattern/ShapeMaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FacadePattern/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FactoryPattern/Bus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FactoryPattern/FactoryPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FactoryPattern/Taxi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FactoryPattern/Train.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FactoryPattern/TransportCost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FactoryPattern/TransportFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PrototypePattern/Prototype.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PrototypePattern/PrototypeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PrototypePattern/StudentRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProxyPattern/Internet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProxyPattern/ProxyInternet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProxyPattern/ProxyInternetDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProxyPattern/RealInternet.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +54,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -27,7 +65,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1Ysc1MfDTw8IhSTxVBHg3E0s1zP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -46,7 +86,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FacadePatternDemo">
+  <component name="RunManager" selected="Application.CommandPatternDemo">
+    <configuration name="CommandPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CommandPattern.CommandPatternDemo" />
+      <module name="JatinRaheja_Epam_Design_Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CommandPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FacadePatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StructuralDesignPattern.FacadePattern.FacadePatternDemo" />
       <module name="JatinRaheja_Epam_Design_Patterns" />
@@ -67,9 +120,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrototypeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CreationalDesignPatterns.PrototypePattern.PrototypeDemo" />
+    <configuration name="IteratorPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BehavioralPattern.IteratorPattern.IteratorPatternDemo" />
       <module name="JatinRaheja_Epam_Design_Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BehavioralPattern.IteratorPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -89,10 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CommandPatternDemo" />
+        <item itemvalue="Application.IteratorPatternDemo" />
         <item itemvalue="Application.FacadePatternDemo" />
         <item itemvalue="Application.ProxyInternetDemo" />
         <item itemvalue="Application.FactoryPatternDemo" />
-        <item itemvalue="Application.PrototypeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -106,11 +166,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583734526665</updated>
-      <workItem from="1583734529942" duration="11443000" />
+      <workItem from="1583734529942" duration="13004000" />
+      <workItem from="1583821276511" duration="4448000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
